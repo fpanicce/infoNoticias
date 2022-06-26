@@ -1,0 +1,93 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Slab:wght@100;600&family=Roboto:ital@1&display=swap');
+
+
+
+header{
+    height: 5vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'League Gothic', sans-serif !important;
+    
+}
+
+header h1{
+    font-size: 1rem;
+    font-family: 'League Gothic', sans-serif !important;
+    color: white !important;
+}
+
+nav{
+    background-color: #3f51b5 !important;
+    color: white !important;
+    font-size: 1.5rem !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    font-family: 'League Gothic', sans-serif !important;
+}
+
+.seccion1{
+    background-image: url(./imagenes/pexels-pixabay-158651.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: white;
+}
+
+.alert{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    width: 100% !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+@media (min-width: 655px) {
+    .card{
+        width: 50% !important;
+    }
+}
+
+
+@media (min-width: 975px) {
+    .card{
+        width: 33% !important;
+    }
+
+    #navbarSupportedContent{
+        padding-left: 10% !important;
+    }
+
+    li{
+        margin-left: 20% !important;
+    }
+
+    .seccion1{
+        height: 80vh !important;
+    }
+}
+
+
+@media (min-width: 1295px) {
+    .card{
+        width: 25% !important;
+    }
+}
