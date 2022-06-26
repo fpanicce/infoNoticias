@@ -73,15 +73,20 @@ nav{
     }
 
     #navbarSupportedContent{
-        padding-left: 10% !important;
-    }
-
-    li{
-        margin-left: 20% !important;
+        padding-left: 5% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
     }
 
     .seccion1{
         height: 80vh !important;
+    }
+
+    ul{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
     }
 }
 
